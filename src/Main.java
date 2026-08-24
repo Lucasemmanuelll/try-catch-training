@@ -3,6 +3,11 @@ public static void main(String[] args) {
 
 
     Scanner sc = new Scanner(System.in);
+Conta[] conta = new Conta[3];
+
+conta[0] = new Conta("Lucas","Corrente", 2000);
+conta[1] = new Conta("Amanda", "Poupança", 7000);
+conta[2] = new Conta("José", "Salario", 2000);
 
     try{
     System.out.println("""
